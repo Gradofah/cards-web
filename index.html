@@ -48,13 +48,19 @@
           window.location.href = "uniwebview://game-initialized";
         }
 
-        function OnGameStarted(){
+        function OnGameStarted()
+        {
           window.location.href = "uniwebview://game-started";
         }
 
         function OnGameEndedOrRestarted()
         {
           window.location.href = "uniwebview://game-endedorrestarted"
+        }
+
+        function OnHomeClicked()
+        {
+          window.location.href = "uniwebview://game-homeclicked"
         }
 
         function updateContainerSize() {
